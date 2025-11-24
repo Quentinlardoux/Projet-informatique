@@ -12,8 +12,8 @@ void afficherCadre() {
     text_color(LIGHTGRAY);
     for (int y = 0; y <= HAUTEUR+1; y++) {
         for (int x = 0; x <= LARGEUR+1; x++) {
-            if (y == 0 || y == HAUTEUR+1) printf("#");
-            else if (x == 0 || x == LARGEUR+1) printf("#");
+            if (y == 0 || y == HAUTEUR+1) printf("_");
+            else if (x == 0 || x == LARGEUR+1) printf("|");
             else printf(" ");
         }
         printf("\n");
