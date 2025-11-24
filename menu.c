@@ -8,6 +8,8 @@ int menu() {
     scanf("%d",&choix);
     return choix;
 }
+
+dhbeuiéalz dbiz dfuijkéa ofjk" ahfkjj"jfb"zjfhbfh jezjk
 void ChoixMenu() {
     do {
         switch (choix) {
